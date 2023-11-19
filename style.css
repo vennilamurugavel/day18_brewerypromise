@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/beer-with-foam-bubbles-lager-beer-background_342166-18.jpg?w=360");
+    }
+    
+    #obdbid{
+        margin-left: 400px;
+        margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    }
+    button{
+        height: 50px;
+        width: 100px;
+        border: 1px solid white;
+    border-radius: 10px;
+    }
+    #details{
+        position: absolute;
+        left: 450px;
+        top: 300px;
+        border: 1px solid red;
+        border-radius: 10px;
+    
+    }
+    h2{
+        margin-left: 450px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .card{
+        display: none;
+    }
+     .hov:hover .card{
+        display: block;
+    }
+    .hov{
+    text-align: center;
+    position: absolute;
+    border: 1px solid white;
+    }
